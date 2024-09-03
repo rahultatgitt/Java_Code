@@ -3,7 +3,7 @@ package Recursion;
 public class TowerOfHanoi {
 
     public static void solveHanoi(int n, char fromRod, char toRod, char auxRod) {
-        if (n == 1) {  // Base case: only one disk to move
+        if (n == 1) {  // Base case
             System.out.println("Move disk 1 from rod " + fromRod + " to rod " + toRod);
             return;
         }
